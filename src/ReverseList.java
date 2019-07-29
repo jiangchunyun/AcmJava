@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class ReverseList {
 
     public static class Node{
-        public int value;
-        public Node next;
+        public int value;//node value.
+        public Node next;//list next node.
         public Node(int value){
             this.value=value;
         }
@@ -31,12 +31,17 @@ public class ReverseList {
         }
     }
 
+    /**
+     * this function is to reverse list.
+     * @param head list head
+     * @return reverse list head.
+     */
     public static Node ReverseList(Node head){
         if(head.next==null||head==null){
             return head;
         }
-        Node p=head.next;
-        Node q=null;
+        Node p=head.next;//the current node next node.
+        Node q=null;//the current node pre node.
         while(head.next!=null){
             head.next=q;
             q=head;
