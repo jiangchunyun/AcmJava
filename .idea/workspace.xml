@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18afd178-17ab-4d1a-9830-9ad24ba37bd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SubstructureInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MirrorOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AcmJava/SubstructureInTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AcmJava/SubstructureInTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AcmJava/SubstructureInTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AcmJava/SubstructureInTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +17,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubstructureInTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubstructureInTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SubstructureInTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="236">
+              <caret line="21" column="32" selection-start-line="18" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MirrorOfBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MirrorOfBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/MergeSortedLists.java" />
         <option value="$PROJECT_DIR$/src/SubstructureInTree.java" />
+        <option value="$PROJECT_DIR$/src/MirrorOfBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -134,19 +150,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubstructureInTree">
+  <component name="RunManager" selected="Application.MirrorOfBinaryTree">
     <configuration name="FindLoopEnterNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindLoopEnterNode" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="KthNodeFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KthNodeFromEnd" />
+    <configuration name="MergeSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortedLists" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MergeSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedLists" />
+    <configuration name="MirrorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MirrorOfBinaryTree" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -202,19 +218,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.KthNodeFromEnd" />
       <item itemvalue="Application.FindLoopEnterNode" />
       <item itemvalue="Application.ReverseList" />
       <item itemvalue="Application.MergeSortedLists" />
       <item itemvalue="Application.SubstructureInTree" />
+      <item itemvalue="Application.MirrorOfBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MirrorOfBinaryTree" />
         <item itemvalue="Application.SubstructureInTree" />
         <item itemvalue="Application.MergeSortedLists" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.FindLoopEnterNode" />
-        <item itemvalue="Application.KthNodeFromEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -234,12 +250,12 @@
       <workItem from="1564104336445" duration="844000" />
       <workItem from="1564361727653" duration="1721000" />
       <workItem from="1564448279762" duration="2117000" />
-      <workItem from="1564535410802" duration="2223000" />
+      <workItem from="1564535410802" duration="3983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9764000" />
+    <option name="totallyTimeSpent" value="11524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="23" width="1113" height="877" extended-state="0" />
@@ -424,12 +440,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SubstructureInTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="236">
+          <caret line="21" column="32" selection-start-line="18" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MirrorOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
