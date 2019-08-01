@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18afd178-17ab-4d1a-9830-9ad24ba37bd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MergeSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SubstructureInTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,16 +14,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MergeSortedLists.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MergeSortedLists.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SubstructureInTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SubstructureInTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="361">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -49,6 +59,7 @@
         <option value="$PROJECT_DIR$/src/FindLoopEnterNode.java" />
         <option value="$PROJECT_DIR$/src/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/MergeSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/SubstructureInTree.java" />
       </list>
     </option>
   </component>
@@ -78,8 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +107,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedLists">
+  <component name="RunManager" selected="Application.SubstructureInTree">
     <configuration name="FindLoopEnterNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindLoopEnterNode" />
       <module name="AcmJava" />
@@ -139,13 +150,13 @@
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="OrderOddEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OrderOddEvenNumber" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseList" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseList" />
+    <configuration name="SubstructureInTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubstructureInTree" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -191,19 +202,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.OrderOddEvenNumber" />
       <item itemvalue="Application.KthNodeFromEnd" />
       <item itemvalue="Application.FindLoopEnterNode" />
       <item itemvalue="Application.ReverseList" />
       <item itemvalue="Application.MergeSortedLists" />
+      <item itemvalue="Application.SubstructureInTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubstructureInTree" />
         <item itemvalue="Application.MergeSortedLists" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.FindLoopEnterNode" />
         <item itemvalue="Application.KthNodeFromEnd" />
-        <item itemvalue="Application.OrderOddEvenNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -222,12 +233,13 @@
       <workItem from="1564018198714" duration="1486000" />
       <workItem from="1564104336445" duration="844000" />
       <workItem from="1564361727653" duration="1721000" />
-      <workItem from="1564448279762" duration="1487000" />
+      <workItem from="1564448279762" duration="2117000" />
+      <workItem from="1564535410802" duration="2223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6911000" />
+    <option name="totallyTimeSpent" value="9764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="23" width="1113" height="877" extended-state="0" />
@@ -242,19 +254,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22692308" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22692308" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.42307693" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22035481" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22408964" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -270,6 +282,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MergeSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -391,11 +410,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MergeSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="1020">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SubstructureInTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
