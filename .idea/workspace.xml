@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18afd178-17ab-4d1a-9830-9ad24ba37bd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KLeastNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KLeastNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KLeastNumbers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +17,8 @@
       <file leaf-file-name="KLeastNumbers.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KLeastNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="361">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -78,8 +78,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="23" />
+    <option name="x" value="212" />
+    <option name="y" value="27" />
     <option name="width" value="1113" />
     <option name="height" value="877" />
   </component>
@@ -88,7 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,7 +105,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -138,19 +138,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MoreThanHalfNumber">
+  <component name="RunManager" selected="Application.KLeastNumbers">
     <configuration name="ConvertBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConvertBinarySearchTree" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MoreThanHalfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoreThanHalfNumber" />
+    <configuration name="KLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KLeastNumbers" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PathInTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PathInTree" />
+    <configuration name="MoreThanHalfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoreThanHalfNumber" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -215,19 +215,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PathInTree" />
       <item itemvalue="Application.ConvertBinarySearchTree" />
       <item itemvalue="Application.SerializeBinaryTrees" />
       <item itemvalue="Application.StringPermutation" />
       <item itemvalue="Application.MoreThanHalfNumber" />
+      <item itemvalue="Application.KLeastNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KLeastNumbers" />
         <item itemvalue="Application.MoreThanHalfNumber" />
         <item itemvalue="Application.StringPermutation" />
         <item itemvalue="Application.SerializeBinaryTrees" />
         <item itemvalue="Application.ConvertBinarySearchTree" />
-        <item itemvalue="Application.PathInTree" />
       </list>
     </recent_temporary>
   </component>
@@ -275,31 +275,32 @@
       <workItem from="1566438236823" duration="683000" />
       <workItem from="1566523224702" duration="1398000" />
       <workItem from="1567128756128" duration="990000" />
-      <workItem from="1567387682818" duration="1448000" />
+      <workItem from="1567387682818" duration="2832000" />
+      <workItem from="1567474216866" duration="960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45655000" />
+    <option name="totallyTimeSpent" value="47999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="23" width="1113" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="212" y="27" width="1113" height="877" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32948717" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2846154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2846154" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5307692" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29615384" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25396827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2997199" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -313,25 +314,24 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32948717" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26237163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32948717" />
@@ -340,7 +340,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -709,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KLeastNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="361">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
