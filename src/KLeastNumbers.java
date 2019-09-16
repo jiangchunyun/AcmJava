@@ -7,15 +7,19 @@ public class KLeastNumbers {
     public static void main(String[] argc){
         Scanner in =new Scanner(System.in);
         int n=in.nextInt();
-        int[] numbers=new int[n];
+        Integer[] numbers=new Integer[n];
         for(int i=0;i<n;i++){
             numbers[i]=in.nextInt();
         }
         int k=in.nextInt();
-        getKLeastNumbers(numbers,k);
+        //getKLeastNumbers(numbers,k);
+        numbers=getKLeastNumbersSecondPlan(numbers,k);
+        for(int i=0;i<k;i++){
+            System.out.println(numbers[i]);
+        }
     }
 
-    public static int[] getKLeastNumbers(int[] numbers,int n){
+    public static Integer[] getKLeastNumbers(Integer[] numbers,int n){
         for(int i=1;i<numbers.length;i++){
             int index=i;
             int j=0;
@@ -40,5 +44,42 @@ public class KLeastNumbers {
             System.out.println(numbers[i]);
         }
         return numbers;
+    }
+
+    public static Integer[] getKLeastNumbersSecondPlan(Integer[] numbers,int k){
+        int start=0;
+        int end=numbers.length-1;
+        int index=searchIndex(numbers,start,end);
+        while(index!=k-1){
+            if(index<k-1){
+                start=index+1;
+            }else if(index>k-1){
+                end=index-1;
+            }
+            index=searchIndex(numbers,start,end);
+        }
+        return numbers;
+    }
+    public static int searchIndex(Integer[] numbers,int start,int end){
+        while(start<end){
+            while(start<end&&numbers[start]<=numbers[end]){
+                end--;
+            }
+            if(start<end){
+                int temp=numbers[start];
+                numbers[start]=numbers[end];
+                numbers[end]=temp;
+            }
+            while(start<end&&numbers[start]<=numbers[end]){
+                start++;
+            }
+            if(start<end){
+                int temp=numbers[start];
+                numbers[start]=numbers[end];
+                numbers[end]=temp;
+            }
+
+        }
+        return end;
     }
 }
