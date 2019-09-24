@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18afd178-17ab-4d1a-9830-9ad24ba37bd6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DigitsInSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AcmJava/NumberOf1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AcmJava/NumberOf1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberOf1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumberOf1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumberOf1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumberOf1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="-92">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DigitsInSequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DigitsInSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -64,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/KLeastNumbers.java" />
         <option value="$PROJECT_DIR$/src/GreatestSumOfSubarrays.java" />
         <option value="$PROJECT_DIR$/src/NumberOf1.java" />
+        <option value="$PROJECT_DIR$/src/DigitsInSequence.java" />
       </list>
     </option>
   </component>
@@ -93,7 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +121,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +153,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOf1">
+  <component name="RunManager" selected="Application.DigitsInSequence">
+    <configuration name="DigitsInSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitsInSequence" />
+      <module name="AcmJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="GreatestSumOfSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreatestSumOfSubarrays" />
       <module name="AcmJava" />
@@ -161,11 +176,6 @@
     </configuration>
     <configuration name="StreamMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamMedian" />
-      <module name="AcmJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UglyNumber" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -221,18 +231,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.KLeastNumbers" />
-      <item itemvalue="Application.UglyNumber" />
       <item itemvalue="Application.StreamMedian" />
       <item itemvalue="Application.GreatestSumOfSubarrays" />
       <item itemvalue="Application.NumberOf1" />
+      <item itemvalue="Application.DigitsInSequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DigitsInSequence" />
         <item itemvalue="Application.NumberOf1" />
         <item itemvalue="Application.GreatestSumOfSubarrays" />
         <item itemvalue="Application.KLeastNumbers" />
         <item itemvalue="Application.StreamMedian" />
-        <item itemvalue="Application.UglyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -291,12 +301,13 @@
       <workItem from="1568769893589" duration="1001000" />
       <workItem from="1568856311322" duration="825000" />
       <workItem from="1568947790756" duration="161000" />
-      <workItem from="1569201939011" duration="1841000" />
+      <workItem from="1569201939011" duration="1986000" />
+      <workItem from="1569287819941" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62581000" />
+    <option name="totallyTimeSpent" value="65607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="153" y="76" width="1087" height="788" extended-state="0" />
@@ -316,7 +327,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2952243" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24497607" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24976076" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,17 +344,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26237163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -356,7 +367,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -369,13 +380,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OrderOddEvenNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -715,8 +719,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="-92">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DigitsInSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
