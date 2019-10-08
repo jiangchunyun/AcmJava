@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18afd178-17ab-4d1a-9830-9ad24ba37bd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestSubstringWithoutDup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AcmJava/MaxValueOfGifts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AcmJava/MaxValueOfGifts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UglyNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LongestSubstringWithoutDup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestSubstringWithoutDup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LongestSubstringWithoutDup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="151">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UglyNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UglyNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -61,7 +68,6 @@
         <option value="$PROJECT_DIR$/src/CopyComplexList.java" />
         <option value="$PROJECT_DIR$/src/StringPermutation.java" />
         <option value="$PROJECT_DIR$/src/MoreThanHalfNumber.java" />
-        <option value="$PROJECT_DIR$/src/UglyNumber.java" />
         <option value="$PROJECT_DIR$/src/StreamMedian.java" />
         <option value="$PROJECT_DIR$/src/KLeastNumbers.java" />
         <option value="$PROJECT_DIR$/src/GreatestSumOfSubarrays.java" />
@@ -73,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/MaxValueOfGifts.java" />
         <option value="$PROJECT_DIR$/src/LongestSubstringWithoutDup.kt" />
         <option value="$PROJECT_DIR$/src/LongestSubstringWithoutDup.java" />
+        <option value="$PROJECT_DIR$/src/UglyNumber.java" />
       </list>
     </option>
   </component>
@@ -102,6 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,8 +128,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,12 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringWithoutDup">
-    <configuration name="DigitsInSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DigitsInSequence" />
-      <module name="AcmJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.UglyNumber">
     <configuration name="LongestSubstringWithoutDup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestSubstringWithoutDup" />
       <module name="AcmJava" />
@@ -175,6 +177,11 @@
     </configuration>
     <configuration name="TranslateNumbersToStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TranslateNumbersToStrings" />
+      <module name="AcmJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UglyNumber" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -229,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DigitsInSequence" />
       <item itemvalue="Application.SortArrayForMinNumber" />
       <item itemvalue="Application.TranslateNumbersToStrings" />
       <item itemvalue="Application.MaxValueOfGifts" />
       <item itemvalue="Application.LongestSubstringWithoutDup" />
+      <item itemvalue="Application.UglyNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UglyNumber" />
         <item itemvalue="Application.LongestSubstringWithoutDup" />
         <item itemvalue="Application.MaxValueOfGifts" />
         <item itemvalue="Application.TranslateNumbersToStrings" />
         <item itemvalue="Application.SortArrayForMinNumber" />
-        <item itemvalue="Application.DigitsInSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -306,12 +313,13 @@
       <workItem from="1569399744438" duration="1016000" />
       <workItem from="1569462674179" duration="2140000" />
       <workItem from="1569721043397" duration="1160000" />
-      <workItem from="1569810049867" duration="4011000" />
+      <workItem from="1569810049867" duration="4544000" />
+      <workItem from="1570497731152" duration="1791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77652000" />
+    <option name="totallyTimeSpent" value="79976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="121" y="112" width="1175" height="788" extended-state="0" />
@@ -319,19 +327,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32948717" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41823444" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41823444" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2894356" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2894356" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25684026" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -345,20 +352,21 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32948717" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26237163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -368,13 +376,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +467,6 @@
     <entry file="file://$PROJECT_DIR$/src/SerializeBinaryTrees.java" />
     <entry file="file://$PROJECT_DIR$/src/StringPermutation.java" />
     <entry file="file://$PROJECT_DIR$/src/MoreThanHalfNumber.java" />
-    <entry file="file://$PROJECT_DIR$/src/UglyNumber.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6023">
@@ -484,17 +491,18 @@
     <entry file="file://$PROJECT_DIR$/src/SortArrayForMinNumber.java" />
     <entry file="file://$PROJECT_DIR$/src/TranslateNumbersToStrings.java" />
     <entry file="file://$PROJECT_DIR$/src/MaxValueOfGifts.java" />
-    <entry file="file://$PROJECT_DIR$/src/LongestSubstringWithoutDup.kt">
+    <entry file="file://$PROJECT_DIR$/src/LongestSubstringWithoutDup.kt" />
+    <entry file="file://$PROJECT_DIR$/src/LongestSubstringWithoutDup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="151">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestSubstringWithoutDup.java">
+    <entry file="file://$PROJECT_DIR$/src/UglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="171">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
