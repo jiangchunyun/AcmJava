@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee036f4-a62e-4d87-aadf-83376881df97" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BalancedBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AcmJava/TreeDepth$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AcmJava/TreeDepth$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AcmJava/TreeDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AcmJava/TreeDepth.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +16,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TreeDepth.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TreeDepth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="24" column="25" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalancedBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BalancedBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/MissingNumber.java" />
         <option value="$PROJECT_DIR$/src/IntegerIdenticalToIndex.java" />
         <option value="$PROJECT_DIR$/src/KthNodeInBST.java" />
+        <option value="$PROJECT_DIR$/src/TreeDepth.java" />
+        <option value="$PROJECT_DIR$/src/BalancedBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -93,6 +123,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,13 +133,15 @@
               <item name="AcmJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="AcmJava" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AcmJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcmJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,7 +163,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeDepth">
+  <component name="RunManager" selected="Application.BalancedBinaryTree">
+    <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BalancedBinaryTree" />
+      <module name="AcmJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="IntegerIdenticalToIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntegerIdenticalToIndex" />
       <module name="AcmJava" />
@@ -141,11 +181,6 @@
     </configuration>
     <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MissingNumber" />
-      <module name="AcmJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="NumberOfK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberOfK" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -205,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumberOfK" />
       <item itemvalue="Application.MissingNumber" />
       <item itemvalue="Application.IntegerIdenticalToIndex" />
       <item itemvalue="Application.KthNodeInBST" />
       <item itemvalue="Application.TreeDepth" />
+      <item itemvalue="Application.BalancedBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BalancedBinaryTree" />
         <item itemvalue="Application.TreeDepth" />
         <item itemvalue="Application.KthNodeInBST" />
         <item itemvalue="Application.IntegerIdenticalToIndex" />
         <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.NumberOfK" />
       </list>
     </recent_temporary>
   </component>
@@ -294,17 +329,21 @@
       <workItem from="1573635705502" duration="272000" />
       <workItem from="1573647248278" duration="1749000" />
       <workItem from="1573734794676" duration="640000" />
+      <workItem from="1574304815209" duration="281000" />
+      <workItem from="1574650620341" duration="2275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102096000" />
+    <option name="totallyTimeSpent" value="104652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="24" width="1388" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32862645" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -313,10 +352,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32991013" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28498074" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28498074" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23551263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24219911" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -330,31 +369,30 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32948717" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26237163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,8 +408,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IsNumber.java" />
-    <entry file="file://$PROJECT_DIR$/src/ReverseList.java" />
     <entry file="file://$PROJECT_DIR$/src/FindLoopEnterNode.java" />
     <entry file="file://$PROJECT_DIR$/src/KthNodeFromEnd.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -519,6 +555,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="25" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BalancedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
