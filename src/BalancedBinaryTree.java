@@ -1,4 +1,6 @@
 public class BalancedBinaryTree {
+    public static boolean isBalanced = true;
+
     public static class Node {
         int value;
         Node left;
@@ -20,8 +22,9 @@ public class BalancedBinaryTree {
         node1.right = node3;
         node2.right = node4;
         node2.left = node5;
-        node5.left = node6;
+        node3.left = node6;
         System.out.println(treeDepth(node1, 0));
+        System.out.println(isBalanced);
     }
 
     public static boolean isBalancedBinaryTree(Node head) {
@@ -43,7 +46,9 @@ public class BalancedBinaryTree {
         if (head.right != null) {
             rightDp = treeDepth(head.right, dp + 1);
         }
-
+        if(isBalanced&&Math.abs(leftDp-rightDp)>1){
+            isBalanced = false;
+        }
         return Math.max(leftDp, rightDp);
     }
 }
