@@ -27,7 +27,7 @@ public class NumbersAppearOnce {
         List<Integer> oneNumbers = new ArrayList<Integer>();
         List<Integer> twoNumbers = new ArrayList<Integer>();
         for (int i = 0; i < numbers.length; i++) {
-            if (isIndexOneNumber(numbers[1], index)) {
+            if (isIndexOneNumber(numbers[i], index)) {
                 oneNumbers.add(numbers[i]);
             } else {
                 twoNumbers.add(numbers[i]);
@@ -36,7 +36,6 @@ public class NumbersAppearOnce {
         int[] nums = new int[2];
         nums[0] = findNumberAppearOnce(oneNumbers);
         nums[1] = findNumberAppearOnce(twoNumbers);
-
         return nums;
     }
 
