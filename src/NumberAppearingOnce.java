@@ -13,21 +13,21 @@ public class NumberAppearingOnce {
             numbers[i] = scanner.nextInt();
         }
 
-        findNumberAppearingOnce(numbers);
+        System.out.println(findNumberAppearingOnce(numbers));
 
     }
 
     public static int findNumberAppearingOnce(int[] numbers) {
         int length = numbers.length;
         int[] res = new int[32];
-        for (int i = 0; i < 32; i++) {
-            res[i] = 0;
-            for (int j = 0; j < length; j++) {
-                int temp = numbers[j] & 1;
-                if (temp == 1) {
-                    res[i] = res[i] + 1;
+        for (int i = 0; i < length; i++) {
+            int bit=1;
+            for (int j = 0; j < 32; j++) {
+                int temp = numbers[i] & bit;
+                if (temp != 0) {
+                    res[j] = res[j] + 1;
                 }
-                numbers[j] = numbers[j] >> 1;
+                bit = bit << 1;
             }
         }
 
@@ -35,7 +35,6 @@ public class NumberAppearingOnce {
         for (int i = 31; i >= 0; i--) {
             appearingOnceNumber = appearingOnceNumber << 1;
             appearingOnceNumber = appearingOnceNumber + (res[i] % 3);
-            System.out.println(appearingOnceNumber);
         }
         return appearingOnceNumber;
     }
