@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="18afd178-17ab-4d1a-9830-9ad24ba37bd6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SortChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AcmJava/StreamMedian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AcmJava/StreamMedian.class" afterDir="false" />
+=======
     <list default="true" id="cee036f4-a62e-4d87-aadf-83376881df97" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContinuousSquenceWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContinuousSquenceWithSum.java" afterDir="false" />
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ContinuousSquenceWithSum.java" pinned="false" current-in-tab="true">
@@ -26,6 +34,7 @@
       </file>
     </leaf>
   </component>
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -37,6 +46,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1RRfkvo1uI2fHi3gSXLmqOv8C3O" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+=======
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -132,11 +156,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
+<<<<<<< HEAD
+    <property name="node.js.selected.package.standard" value="$USER_HOME$/src/rcrn/node_modules/eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,83 +183,103 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Application.SortChar">
+    <configuration name="KLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KLeastNumbers" />
+=======
   <component name="RunManager" selected="Application.ContinuousSquenceWithSum">
     <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BalancedBinaryTree" />
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ContinuousSquenceWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContinuousSquenceWithSum" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="SortChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortChar" />
+=======
     <configuration name="NumberAppearingOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumberAppearingOnce" />
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="StreamMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamMedian" />
+=======
     <configuration name="NumbersAppearOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumbersAppearOnce" />
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TwoNumbersWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoNumbersWithSum" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
+      <item itemvalue="Application.MoreThanHalfNumber" />
+      <item itemvalue="Application.KLeastNumbers" />
+      <item itemvalue="Application.UglyNumber" />
+      <item itemvalue="Application.StreamMedian" />
+      <item itemvalue="Application.SortChar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SortChar" />
+        <item itemvalue="Application.StreamMedian" />
+        <item itemvalue="Application.UglyNumber" />
+        <item itemvalue="Application.KLeastNumbers" />
+        <item itemvalue="Application.MoreThanHalfNumber" />
+=======
       <item itemvalue="Application.BalancedBinaryTree" />
       <item itemvalue="Application.NumbersAppearOnce" />
       <item itemvalue="Application.NumberAppearingOnce" />
@@ -240,6 +293,7 @@
         <item itemvalue="Application.NumberAppearingOnce" />
         <item itemvalue="Application.NumbersAppearOnce" />
         <item itemvalue="Application.BalancedBinaryTree" />
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
       </list>
     </recent_temporary>
   </component>
@@ -280,6 +334,28 @@
       <workItem from="1567387682818" duration="2832000" />
       <workItem from="1567474216866" duration="1041000" />
       <workItem from="1567561129468" duration="845000" />
+<<<<<<< HEAD
+      <workItem from="1569634978639" duration="474000" />
+      <workItem from="1575718571607" duration="5669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+=======
       <workItem from="1568172131441" duration="1535000" />
       <workItem from="1568193115937" duration="700000" />
       <workItem from="1568205507093" duration="1182000" />
@@ -582,5 +658,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 098293f6040d3ad9aa04efbfdb08045d68fe81a4
   </component>
 </project>
