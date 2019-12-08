@@ -23,21 +23,21 @@ public class TreeDepth {
         node2.right=node4;
         node2.left=node5;
         node5.left=node6;
-        treeDepth(node1,0);
-        System.out.println(MAX_DEPTH);
+        System.out.println(treeDepth(node1));
 
     }
-    public static void treeDepth(Node root, int dp){
+    /*
+         a
+     c       b
+  e     t
+     */
+    public static int treeDepth(Node root) {
         if (root == null) {
-            return;
+            return -1;
         }
-        MAX_DEPTH = dp >= MAX_DEPTH ? dp : MAX_DEPTH;
-        if (root.left != null) {
-            treeDepth(root.left,dp + 1);
-        }
-
-        if(root.right != null) {
-            treeDepth(root.right,dp + 1);
-        }
+        int leftDepth = treeDepth(root.left);
+        int rightDepth = treeDepth(root.right);
+        int result = 1 + ((leftDepth>rightDepth)?leftDepth:rightDepth);
+        return result;
     }
 }
