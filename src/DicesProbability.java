@@ -11,10 +11,11 @@ public class DicesProbability {
     public static void main(String[] argc) {
         Scanner in = new Scanner(System.in);
         n = in.nextInt();
-        calDicesProbability(0,1);
-        res.forEach((k, v) -> {
-            System.out.println(k + ":" + v);
-        });
+        calDicesProbabilityTwo(n);
+//        calDicesProbability(0, 1);
+//        res.forEach((k, v) -> {
+//            System.out.println(k + ":" + v);
+//        });
     }
 
     public static void calDicesProbability(int sum, int size) {
@@ -31,5 +32,28 @@ public class DicesProbability {
             calDicesProbability(sum + i, size + 1);
         }
 
+    }
+
+    public static void calDicesProbabilityTwo(int n) {
+        int[][] dp = new int[n + 1][6 * n+1];
+        int total = (int) Math.pow(6, n);
+        for (int i = 1; i <= 6; i++) {
+            dp[1][i] = 1;
+        }
+
+        for (int i = 2; i <= n; i++) {
+            for (int j = 2; j <= n * 6; j++) {
+                int sum = 0;
+                for (int m = 1; m < j&&m <= 6; m++) {
+                    sum = sum + dp[i - 1][j - m];
+                }
+                dp[i][j] = sum;
+            }
+        }
+        for (int i = n; i <= 6 * n; i++) {
+            if (dp[n][i] > 0) {
+                System.out.println(dp[n][i] + "/" + total);
+            }
+        }
     }
 }
