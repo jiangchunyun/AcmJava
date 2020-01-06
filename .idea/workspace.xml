@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b7026f-c0fc-4a15-9faa-03f9893e5b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ContinousCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LastNumberInCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,25 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DicesProbability.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DicesProbability.java">
+      <file leaf-file-name="LastNumberInCircle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LastNumberInCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="45" />
+            <state relative-caret-position="361">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContinousCards.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ContinousCards.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="35" column="60" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +49,7 @@
         <option value="$PROJECT_DIR$/src/MaxInSlidingWindow.java" />
         <option value="$PROJECT_DIR$/src/DicesProbability.java" />
         <option value="$PROJECT_DIR$/src/ContinousCards.java" />
+        <option value="$PROJECT_DIR$/src/LastNumberInCircle.java" />
       </list>
     </option>
   </component>
@@ -73,10 +63,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="35" />
-    <option name="width" value="1391" />
-    <option name="height" value="859" />
+    <option name="x" value="17" />
+    <option name="y" value="70" />
+    <option name="width" value="1398" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -84,7 +74,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,16 +81,25 @@
               <item name="AcmJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="AcmJava" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AcmJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcmJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -118,12 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContinousCards">
-    <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BalancedBinaryTree" />
-      <module name="AcmJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.LastNumberInCircle">
     <configuration name="ContinousCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContinousCards" />
       <module name="AcmJava" />
@@ -131,6 +124,11 @@
     </configuration>
     <configuration name="DicesProbability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DicesProbability" />
+      <module name="AcmJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LastNumberInCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LastNumberInCircle" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -195,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BalancedBinaryTree" />
       <item itemvalue="Application.MaxInSlidingWindow" />
       <item itemvalue="Application.SquenceOfBST" />
       <item itemvalue="Application.DicesProbability" />
       <item itemvalue="Application.ContinousCards" />
+      <item itemvalue="Application.LastNumberInCircle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastNumberInCircle" />
         <item itemvalue="Application.ContinousCards" />
         <item itemvalue="Application.DicesProbability" />
         <item itemvalue="Application.SquenceOfBST" />
         <item itemvalue="Application.MaxInSlidingWindow" />
-        <item itemvalue="Application.BalancedBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -236,31 +234,32 @@
       <workItem from="1577848785476" duration="41000" />
       <workItem from="1577848831705" duration="1500000" />
       <workItem from="1577959593443" duration="779000" />
-      <workItem from="1578041935005" duration="2224000" />
+      <workItem from="1578041935005" duration="2463000" />
+      <workItem from="1578276777986" duration="1931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4578000" />
+    <option name="totallyTimeSpent" value="6748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="35" width="1391" height="859" extended-state="0" />
+    <frame x="17" y="70" width="1398" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.42125985" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003756" side_tool="true" weight="0.42435896" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49962434" visible="true" weight="0.4632546" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962434" weight="0.4525641" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962434" weight="0.25328085" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962434" visible="true" weight="0.3948718" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31430689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31710914" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -274,20 +273,21 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.42125985" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26237163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -297,639 +297,17 @@
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26237163" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/watermark/utils/watermarkImage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/watermark/utils/watermarkImage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/extensionWnd/extensionWnd.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/extensionWnd/extensionWnd.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/voip.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/voip.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/todoPopup/todoPopup.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/todoPopup/todoPopup.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/updateProgress/updateProgress.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/updateProgress/updateProgress.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/historyMessageAction.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/historyMessageAction.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/scrollThreadIntoView.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/userAction.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/userAction.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/appTask.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/roomAction.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/roomAction.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/scrollThreadIntoView.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/lib/appTask.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/sagas/updateInfo.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/sagas/updateInfo.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/emoticon.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/emoticon.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/popoverType.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/popoverType.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/placements.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/container.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/phonePrefix.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/container.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/placements.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/constants/phonePrefix.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/useCombinedRefs.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/usePrevious.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/useLocalStorage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/useWhyDidYouUpdate.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/usePrevious.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/useLocalStorage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/useCombinedRefs.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/hooks/useWhyDidYouUpdate.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/utils/emailCheck.test.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/utils/emailCheck.test.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/utils/isDiff.test.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/utils/isDiff.test.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/public/lib/zipBackground.test.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/public/lib/fileMsg.test.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/public/lib/zipBackground.test.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/public/lib/zipBackgroundManager.test.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/public/lib/fileMsg.test.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/public/lib/zipBackgroundManager.test.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/roomContent.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/roomContent.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/util.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/util.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/update/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/update/grayscaleUpdater.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/update/grayscaleUpdater.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/update/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/nativeUtils/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/nativeUtils/nativeUtils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/nativeUtils/nativeUtils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/nativeUtils/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/messageBox.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/messagesContainer.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/messageBox.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/messagesContainer.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/message.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/message.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/reaction/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/reaction/reaction.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/reaction/reaction.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/room/content/messagesContainer/reaction/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/categoryBoxHeader/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/categoryBoxHeader/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/roomLastMessage/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/roomLastMessage/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/categoryBox/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/categoryBox/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/roomItem/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/roomItem/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/roomItemList/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/main/roomList/roomItemList/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/PhoneSwitch.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/ProfileItem.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/ProfileItem.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/ProfileWrapper.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/DefaultBrowserWrapper.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/PhoneSwitch.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/DefaultBrowserWrapper.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/pages/kimSettings/components/ProfileWrapper.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/KimQuill.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/toolbar.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/clipboard.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/draftManager.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/draftManager.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/clipboard.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/KimQuill.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/editor/toolbar.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Calendar/KimDatePicker.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Calendar/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Calendar/KimDatePicker.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Calendar/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/utils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/utils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/timeInput/KimTimeInput.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/timeInput/KimTimeInput.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/toolbar/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/toolbar/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/IconFont/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/IconFont/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/favoriteBar.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/favoriteBar.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Input/Input.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Input/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Input/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Input/Input.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/aside/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/aside/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Checkbox/Checkbox.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Checkbox/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Checkbox/Checkbox.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Checkbox/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageTipBar/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageTipBar/messageTipBar.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageTipBar/messageTipBar.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageTipBar/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Tabs/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/Tabs/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/searchChatHistoryList.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/messageRecord.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/searchChatHistoryList.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/messageRecord.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/KTrigger.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/KTrigger.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/AutoComplete.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/DropdownSelect.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/DropdownSelect.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/AutoComplete.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/DropdownSelect/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/emojiTable.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/emojiTable.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/kwaiStickerTable.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/iconCategory.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/kwaiStickerTable.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/iconCategory.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/stickerItem/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/stickerItem/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/customStickerTable/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/customStickerTable/customStickerUtil.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/customStickerTable/customStickerUtil.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/sticker/components/customStickerTable/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/message/favoriteMessage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/message/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/message/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/favoriteBar/message/favoriteMessage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/header/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/header/messageRecordHeader.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/header/messageRecordHeader.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/components/messageRecord/header/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/joinRequest/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/joinRequest/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/sendFile/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/sendFile/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/UserItem.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/UserItem.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/MuteAllSetting.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/AdminSetting.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/MuteAllSetting.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupManage/AdminSetting.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/changeAvatar/avatarEditor.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/changeAvatar/avatarEditor.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/changeAvatar/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/changeAvatar/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/updateModal/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/updateModal/utils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/updateModal/utils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/updateModal/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupMember/MemberItem.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/groupMember/MemberItem.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/globalSearchContext.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/globalSearchContext.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kim_extension/common/constant.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kim_extension/common/constant.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/actions/actionsTypes.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/actions/reaction.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/actions/reaction.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/actions/actionsTypes.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/customUtils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/threadUtils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/threadUtils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/commonUtils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/random.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/commonUtils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/kwaiLinkEventManager.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/logger.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/dateUtil.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/customUtils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/kwaiLinkEventManager.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/event_emitter.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/event_emitter.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/logger.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/dateUtil.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/random.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/textutils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/utils/textutils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/zipConsts.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/errorConstant.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/kvstorageKeys.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/kwaiLinkEvent.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/kwaiLinkEvent.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/reaction.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/kvstorageKeys.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/messageTypes.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/zipConsts.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/errorConstant.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/kwaiIMConstants.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/reaction.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/threadTypes.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/messageTypes.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/kwaiIMConstants.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/constants/threadTypes.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/createRoom/components/frequentUserList/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/createRoom/components/frequentUserList/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchSpecificResult.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchAllResult.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchResultRow.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchSection.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchResultRow.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchFilterPanel.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchAllResult.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchSection.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchResultTabs.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchFilterSection.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchSpecificResult.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchFilterPanel.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchRelatedTabs.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchRelatedTabs.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/RecommendSearch.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchResultTabs.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/SearchFilterSection.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/components/RecommendSearch.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/typing.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/format.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/format.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/typing.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/constants.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/app/containers/globalSearch/utils/constants.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/hooks/useTimer.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/hooks/useAnimationFrame.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/hooks/useAnimationFrame.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/hooks/useTimer.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/widgets/voipSingle/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/widgets/voipSingle/voipSingle.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/widgets/voipSingle/voipSingle.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/voip/widgets/voipSingle/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/lib/eventCenter.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/lib/eventCenter.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/auth.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/joinRequestDetail.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/notificationWhenPCLogin.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/searchChatHistory.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/emoji.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/user.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/department.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/reaction.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/kimsdk_config.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/message.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/application.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/searchChatHistory.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/thread.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/search.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/linkInfo.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/pluginMsgInfo.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/user.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/emoji.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/thread.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/settings.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/application.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/joinRequestDetail.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/updateSetting.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/thread_meta.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/department.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/message.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/thread_meta.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/updateSetting.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/linkMsgCache.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/auth.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/linkMsgCache.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/notificationWhenPCLogin.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/kimsdk_config.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/pluginMsgInfo.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/reaction.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/linkInfo.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/search.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/interface/settings.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/common/docsClient.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/common/docsClient.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/reactionGql.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/gql.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/userGql.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/reactionGql.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/userGql.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/emojiGql.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/reportGql.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/reportGql.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/gql.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/api.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/emojiGql.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/api/api.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/customSchemaLink.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/customSchemaLink.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/linkController.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/utils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/utils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/graphql_client.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/linkController.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/graphql_client.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/customHttpLink.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/customHttpLink.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/emoticon/emojiDao.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/emoticon/emojiDao.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/emoticon/emojiService.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/emoticon/emojiService.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/reaction/reactionService.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/reaction/reactionDao.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/reaction/reactionDao.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/reaction/reactionService.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/userNode.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/organizationManager.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/organizationNode.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/departmentNode.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/departmentNode.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/organizationManager.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/userNode.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/organization/organizationNode.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/user/userManager.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/user/userManager.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/account/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/account/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/messageManager/lib/constant.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/messageManager/lib/constant.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/messageManager/messagesContainer/messagesContainer.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/messageManager/messagesContainer/messagesContainer.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/expandedMessage/components/message/nestingMessage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/react/expandedMessage/components/message/nestingMessage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/mutationmsg.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/querymsg.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/msgsubscription.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/attachment.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/attachment.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/msgtype.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/msgtype.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/mutationmsg.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/msg.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/querymsg.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/msgsubscription.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/msgs/msg.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/mutationDevice.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/device.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/device.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/mutationDevice.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/queryDevice.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/devices/queryDevice.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/typingStatus/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/typingStatus/typingStatusMutations.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/typingStatus/typingStatusSubscriptions.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/typingStatus/typingStatusSubscriptions.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/typingStatus/typingStatusMutations.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/typingStatus/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/threadmeta.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/thread.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/joinRequestDetail.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/threadsubscription.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/thread.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/querythreadmetas.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/threadtype.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/querythread.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/querythread.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/querythreadmetas.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/threadtype.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/threadsubscription.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/joinRequestDetail.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/threadmeta.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/mutationthread.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/threads/mutationthread.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/dates/date.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/dates/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/dates/date.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/dates/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/emoticon/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/emoticon/emoticon.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/emoticon/emoticon.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/emoticon/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/usertype.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/usertype.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/user.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/mutationuser.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/mutationuser.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/graphql/schemas/users/user.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kimconnect/interface.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kimconnect/interface.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kimconnect/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kimconnect/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/graphql/client.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/graphql/client.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/kwaiLinkWrapper.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/interfaces.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/messageCache.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/interfaces.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/kwaiLinkWrapper.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/kwailink/messageCache.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/graphql/api/kwailink.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/graphql/api/kwailink.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/kvstorage/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/kvstorage/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/interface.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/all_schema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/interface.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/migration_configs.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/all_schema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/migration_configs.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/fileCacheSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/invoiceSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/userSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/names.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/departmentSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/applicationSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/syncInfoSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/syncInfoSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/settingSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/emoticonSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/roleSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/userSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/roleSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/linkMsgCacheSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/linkMsgCacheSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/permissionSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/permissionSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/departmentSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/invoiceSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/kv.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/linkInfoSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/kimsettingsSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/emojiSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/emoticonSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/kv.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/reminderSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/linkInfoSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/reminderSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/emojiSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/kimsettingsSchema.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/fileCacheSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/applicationSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/names.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/settingSchema.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/kimcore/storeage/realm/schema/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__mocks__/electron.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__mocks__/electron.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__mocks__/archiver.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__mocks__/archiver.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/interface/emoticon.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/interface/kimElectron.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/interface/kimElectron.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/interface/emoticon.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/index.test.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/setup.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/setup.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/__tests__/index.test.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winExtension.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winVoip.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winSchedule.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winTodoReminderPopup.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winFavorite.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winSchedule.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/singleAppCheck.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/singleAppCheck.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winFavorite.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winTodoReminderPopup.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winVoip.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/background/winExtension.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/constants/nodeEnv.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/constants/nodeEnv.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/sentry/sentry.main.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/sentry/util.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/sentry/sentry.renderer.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/sentry/sentry.renderer.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/sentry/util.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/sentry/sentry.main.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/keycode.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/zipBackground.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/allowToChat.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/zipBackgroundManager.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/callKimExtension.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/zipBackgroundManager.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/getDocsTypeIcon.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/fileMsg.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/isDiff.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/emailCheck.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/navigateTo.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/popoverManager.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/getFileTypeIcon.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/isDiff.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/escapeRegExpString.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/fileMsg.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/log.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/getFileTypeIcon.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/navigateTo.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/emailCheck.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/zipBackground.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/allowToChat.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/utils.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/popoverManager.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/uploadImage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/callKimExtension.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/uploadImage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/keycode.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/utils.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/escapeRegExpString.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/log.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/webLogger.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/webLogger.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/getDocsTypeIcon.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/utils/warning.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/utils/warning.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/kwaiMedia/kwaiMedia.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/kwaiMedia/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/kwaiMedia/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/kwaiMedia/kwaiMedia.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/platform/pc/graphql/resolvers/msgs/zipManager.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-app/kimsdk/platform/pc/graphql/resolvers/msgs/zipManager.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/rendererStore/createRendererStore.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/rendererStore/constants.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/rendererStore/registerStoreIpc.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/rendererStore/createRendererStore.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/rendererStore/constants.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/rendererStore/registerStoreIpc.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/watermark/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/watermark/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/scrollbar/customScrollbar.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/scrollbar/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/scrollbar/customScrollbar.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/scrollbar/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/dot/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/dot/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/errorRetry/errorRetry.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/errorRetry/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/errorRetry/errorRetry.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/errorRetry/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/dragSelect/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/dragSelect/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/progressBar/uploadProgressBar.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/progressBar/uploadProgressBar.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/modal/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/modal/modal.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/modal/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/modal/modal.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/Highlighter/Highlighter.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/Highlighter/Highlighter.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/searchInput/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/searchInput/searchInput.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/searchInput/searchInput.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/searchInput/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/watermark/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/watermark/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/purePopover/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/purePopover/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/purePopover/purePopover.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/purePopover/purePopover.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/avatar/kwaiAvatar.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/avatar/kwaiAvatar.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/loading/index.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/loading/index.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/__mocks__/zipBackground.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/lib/__mocks__/zipBackground.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/linkcardMessage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/customSystemMessage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/linkcardMessage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/pluginMessage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/customSystemMessage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/fileMessage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/fileMessage.js" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/pluginMessage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/cloudDocMessage.js.map" />
-        <option value="$USER_HOME$/src/rcrn/packages/kim-electron/src/public/components/messages/cloudDocMessage.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -962,7 +340,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StringPermutation.java" />
     <entry file="file://$PROJECT_DIR$/src/MoreThanHalfNumber.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1203,6 +580,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContinousCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DicesProbability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1213,12 +600,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContinousCards.java">
+    <entry file="file://$PROJECT_DIR$/src/LastNumberInCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="35" column="60" selection-end-line="42" />
+        <state relative-caret-position="361">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
