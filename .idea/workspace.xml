@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b7026f-c0fc-4a15-9faa-03f9893e5b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MaximalProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Accumulate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MaximalProfit.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MaximalProfit.java">
+      <file leaf-file-name="Accumulate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Accumulate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="114">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -47,6 +47,7 @@
         <option value="$PROJECT_DIR$/src/ContinousCards.java" />
         <option value="$PROJECT_DIR$/src/LastNumberInCircle.java" />
         <option value="$PROJECT_DIR$/src/MaximalProfit.java" />
+        <option value="$PROJECT_DIR$/src/Accumulate.java" />
       </list>
     </option>
   </component>
@@ -60,8 +61,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="23" />
+    <option name="x" value="17" />
+    <option name="y" value="40" />
     <option name="width" value="1398" />
     <option name="height" value="877" />
   </component>
@@ -113,7 +114,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximalProfit">
+  <component name="RunManager" selected="Application.Accumulate">
+    <configuration name="Accumulate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Accumulate" />
+      <module name="AcmJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="ContinousCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContinousCards" />
       <module name="AcmJava" />
@@ -131,11 +137,6 @@
     </configuration>
     <configuration name="MaximalProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaximalProfit" />
-      <module name="AcmJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="SquenceOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SquenceOfBST" />
       <module name="AcmJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -190,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SquenceOfBST" />
       <item itemvalue="Application.DicesProbability" />
       <item itemvalue="Application.ContinousCards" />
       <item itemvalue="Application.LastNumberInCircle" />
       <item itemvalue="Application.MaximalProfit" />
+      <item itemvalue="Application.Accumulate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Accumulate" />
         <item itemvalue="Application.MaximalProfit" />
         <item itemvalue="Application.LastNumberInCircle" />
         <item itemvalue="Application.ContinousCards" />
         <item itemvalue="Application.DicesProbability" />
-        <item itemvalue="Application.SquenceOfBST" />
       </list>
     </recent_temporary>
   </component>
@@ -233,15 +234,16 @@
       <workItem from="1577959593443" duration="779000" />
       <workItem from="1578041935005" duration="2463000" />
       <workItem from="1578276777986" duration="2012000" />
-      <workItem from="1578967220194" duration="615000" />
+      <workItem from="1578967220194" duration="1337000" />
+      <workItem from="1579054147738" duration="1429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7444000" />
+    <option name="totallyTimeSpent" value="9595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="23" width="1398" height="877" extended-state="0" />
+    <frame x="17" y="40" width="1398" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -257,7 +259,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962434" visible="true" weight="0.3948718" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32153392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3259587" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,17 +277,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26237163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28589743" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -295,10 +297,10 @@
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -338,13 +340,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6023">
-          <caret line="349" column="13" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StreamMedian.java" />
     <entry file="file://$PROJECT_DIR$/src/KLeastNumbers.java" />
     <entry file="file://$PROJECT_DIR$/src/GreatestSumOfSubarrays.java" />
@@ -581,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,8 +602,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaximalProfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="19">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accumulate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
